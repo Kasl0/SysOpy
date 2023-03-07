@@ -1,0 +1,19 @@
+# biblioteka statyczna:
+	gcc -c bibl1.c
+	ar rcs libbibl1.a bibl1.o #utworzenie biblioteki statycznej
+	gcc -c main.c
+	gcc main.o libbibl1.a -o main_stat
+	./main_stat
+
+# biblioteka współdzielona:
+	gcc -fPIC -c bibl1.c
+	gcc -shared bibl1.o -o libbibl1.so
+	gcc -c main.c
+	gcc main.o -L. -lbibl1 -Wl,-rpath=. -o main_wspoldz #dodatkowa sciezka do bibl
+	./main_wspoldz
+
+# biblioteka ładowana dynamicznie przez program:
+	gcc -fPIC -c bibl1.c
+	gcc -shared bibl1.o -o libbibl1.so
+	gcc main.c -o main_ladow_dynam -ldl
+	./main_ladow_dynam

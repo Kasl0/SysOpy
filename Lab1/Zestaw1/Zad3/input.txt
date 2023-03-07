@@ -1,0 +1,14 @@
+init 6
+count ~/Desktop/SysOpy/Lab1/Zestaw1/Makefile
+count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad1/libwc.c
+count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad1/Makefile
+count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad2/main.c
+count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad2/Makefile
+count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad3/Makefile
+show 0
+show 1
+show 2
+show 3
+show 4
+show 5
+destroy

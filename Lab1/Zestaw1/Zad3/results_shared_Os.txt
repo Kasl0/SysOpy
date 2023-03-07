@@ -1,0 +1,59 @@
+> init 6
+Real time: 153999 ns
+User time: 0 ns
+System time: 0 ns
+> count ~/Desktop/SysOpy/Lab1/Zestaw1/Makefile
+Real time: 19686803 ns
+User time: 0 ns
+System time: 0 ns
+> count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad1/libwc.c
+Real time: 20827791 ns
+User time: 1000 ns
+System time: 0 ns
+> count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad1/MakefileReal time: 19371806 ns
+User time: 0 ns
+System time: 0 ns
+> count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad2/main.c
+Real time: 20517795 ns
+User time: 0 ns
+System time: 0 ns
+> count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad2/MakefileReal time: 19821801 ns
+User time: 0 ns
+System time: 0 ns
+> count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad3/MakefileReal time: 19574804 ns
+User time: 0 ns
+System time: 0 ns
+> show 0
+  9  26 133 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Makefile
+Real time: 53999 ns
+User time: 0 ns
+System time: 0 ns
+> show 1
+  62  153 1429 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Zad1/libwc.c
+Real time: 15000 ns
+User time: 0 ns
+System time: 0 ns
+> show 2
+ 19  47 338 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Zad1/Makefile
+Real time: 14000 ns
+User time: 0 ns
+System time: 0 ns
+> show 3
+ 221  660 7500 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Zad2/main.c
+Real time: 14000 ns
+User time: 0 ns
+System time: 0 ns
+> show 4
+  46  158 1456 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Zad2/Makefile
+Real time: 12000 ns
+User time: 0 ns
+System time: 0 ns
+> show 5
+  38   83 1041 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Zad3/Makefile
+Real time: 13000 ns
+User time: 0 ns
+System time: 0 ns
+> destroy
+Real time: 54000 ns
+User time: 0 ns
+System time: 0 ns

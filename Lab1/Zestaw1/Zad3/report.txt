@@ -1,6 +1,7 @@
 Komentarz do wyników:
 Porównując wyniki między sobą na pierwszy rzut oka nie widać żadnych różnic, czasy wykonania są do siebie podobne, żadna wersja biblioteki ani opcja kompilacji się nie wyróżnia.
-Wystąpujące wyniki sugerują, że opcja -O3 zwiększa wydajność kodu, a domyślne -O0 jest opcją dającą odrobinę wolniejszy kod.
+Jednak przyglądając się bliżej, wydaje się, że użycie biblioteki współdzielonej daje największe czasy oraz wbrew oczekiwaniom flaga -O3 daje średnio dłuższy czas wykonywania, niż inne.
+Różnice są jednak prawie niezauważalne i często odbiegają od reguły.
 
 Wygenerowane pliki:
 

@@ -13,8 +13,8 @@ lib_static:
 lib_shared:
 	${CC} ${CFLAGS} -fPIC -c $(LIB).c
 	${CC} ${CFLAGS} -shared $(LIB).o -o $(LIB).so
-	sudo cp $(LIB).so /usr/lib/$(LIB).so
-	sudo ldconfig
+	cp $(LIB).so ../Zad2/$(LIB).so
+	cp $(LIB).so ../Zad3/$(LIB).so
 
 clean:
 	rm -f *.a *.o *.so

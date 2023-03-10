@@ -1,59 +1,62 @@
 > init 6
-Real time: 141999 ns
+Real time: 10260 ns
 User time: 0 ns
 System time: 0 ns
-> count ~/Desktop/SysOpy/Lab1/Zestaw1/Makefile
-Real time: 19702802 ns
+> count ../Makefile
+Real time: 2704846 ns
 User time: 0 ns
 System time: 0 ns
-> count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad1/libwc.c
-Real time: 20688793 ns
-User time: 0 ns
-System time: 1000 ns
-> count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad1/MakefileReal time: 19518804 ns
+> count ../Zad1/libwc.c
+Real time: 2515956 ns
 User time: 0 ns
 System time: 0 ns
-> count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad2/main.c
-Real time: 20600794 ns
+> count ../Zad1/Makefile
+Real time: 2613093 ns
 User time: 0 ns
 System time: 0 ns
-> count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad2/MakefileReal time: 19368806 ns
+> count ../Zad2/main.c
+Real time: 2559116 ns
 User time: 0 ns
 System time: 0 ns
-> count ~/Desktop/SysOpy/Lab1/Zestaw1/Zad3/MakefileReal time: 19530804 ns
+> count ../Zad2/Makefile
+Real time: 2632163 ns
+User time: 0 ns
+System time: 0 ns
+> count ../Zad3/Makefile
+Real time: 2514038 ns
 User time: 0 ns
 System time: 0 ns
 > show 0
-  9  26 133 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Makefile
-Real time: 23000 ns
+  9  26 133 ../Makefile
+1Real time: 1453 ns
 User time: 0 ns
 System time: 0 ns
 > show 1
-  62  153 1429 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Zad1/libwc.c
-Real time: 13000 ns
+  62  153 1429 ../Zad1/libwc.c
+Real time: 984 ns
 User time: 0 ns
 System time: 0 ns
 > show 2
- 19  47 338 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Zad1/Makefile
-Real time: 13000 ns
+ 19  47 349 ../Zad1/Makefile
+Real time: 930 ns
 User time: 0 ns
 System time: 0 ns
 > show 3
- 221  660 7500 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Zad2/main.c
-Real time: 11000 ns
+ 168  490 5615 ../Zad2/main.c
+Real time: 786 ns
 User time: 0 ns
 System time: 0 ns
 > show 4
-  46  158 1456 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Zad2/Makefile
-Real time: 11000 ns
+  46  157 1463 ../Zad2/Makefile
+Real time: 778 ns
 User time: 0 ns
 System time: 0 ns
 > show 5
-  38   83 1041 /home/pi/Desktop/SysOpy/Lab1/Zestaw1/Zad3/Makefile
-Real time: 10000 ns
+  38   83 1041 ../Zad3/Makefile
+Real time: 780 ns
 User time: 0 ns
 System time: 0 ns
 > destroy
-Real time: 53000 ns
+Real time: 1196 ns
 User time: 0 ns
 System time: 0 ns

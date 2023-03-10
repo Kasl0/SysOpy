@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -ldl
+CFLAGS = -Wall
 PROGRAM = main
 LIB = ../Zad1/libwc
 
@@ -37,11 +37,11 @@ lib_shared_O3:
 	${CC} ${CFLAGS} -O3 ${PROGRAM}_O3.o -L. -lwc -Wl,-rpath=. -o ${PROGRAM}_shared_O3
 
 lib_dynamic_O0:
-	${CC} ${CFLAGS} -O0 ${PROGRAM}.c -o ${PROGRAM}_dynamic_O0 -lwc
+	${CC} ${CFLAGS} -O0 ${PROGRAM}_dyn.c -o ${PROGRAM}_dynamic_O0 -ldl
 lib_dynamic_Os:
-	${CC} ${CFLAGS} -Os ${PROGRAM}.c -o ${PROGRAM}_dynamic_Os -lwc
+	${CC} ${CFLAGS} -Os ${PROGRAM}_dyn.c -o ${PROGRAM}_dynamic_Os -ldl
 lib_dynamic_O3:
-	${CC} ${CFLAGS} -O3 ${PROGRAM}.c -o ${PROGRAM}_dynamic_O3 -lwc
+	${CC} ${CFLAGS} -O3 ${PROGRAM}_dyn.c -o ${PROGRAM}_dynamic_O3 -ldl
 
 clean:
 	rm -f *.a *.o *.so

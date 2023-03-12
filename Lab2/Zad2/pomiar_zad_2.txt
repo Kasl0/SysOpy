@@ -1,0 +1,45 @@
+Copy each char execution time: 16825085 ns
+Copy 1024 chars execution time: 24956150 ns
+
+Copy each char execution time: 354814 ns
+Copy 1024 chars execution time: 349180 ns
+
+Copy each char execution time: 16043700 ns
+Copy 1024 chars execution time: 28317108 ns
+
+Copy each char execution time: 367707 ns
+Copy 1024 chars execution time: 357979 ns
+
+Copy each char execution time: 16966074 ns
+Copy 1024 chars execution time: 322690 ns
+
+Copy each char execution time: 349832 ns
+Copy 1024 chars execution time: 28069355 ns
+
+Copy each char execution time: 17642295 ns
+Copy 1024 chars execution time: 342193 ns
+
+Copy each char execution time: 16645123 ns
+Copy 1024 chars execution time: 347239 ns
+
+Copy each char execution time: 17440083 ns
+Copy 1024 chars execution time: 249349 ns
+
+Copy each char execution time: 356771 ns
+Copy 1024 chars execution time: 282718 ns
+
+Copy each char execution time: 14016047 ns
+Copy 1024 chars execution time: 30226521 ns
+
+Copy each char execution time: 18741335 ns
+Copy 1024 chars execution time: 454110 ns
+
+Copy each char execution time: 18741335 ns
+Copy 1024 chars execution time: 454110 ns
+
+slonkacp@borg:~/Pulpit/SloniecKacper/cw02/Zad2$ ./main input.txt tmp1 ; ./main tmp1 tmp2 ; diff -s tmp2 input.txt
+Copy each char execution time: 248496 ns
+Copy 1024 chars execution time: 13673266 ns
+Copy each char execution time: 221900 ns
+Copy 1024 chars execution time: 29402347 ns
+Pliki tmp2 i input.txt są identyczne

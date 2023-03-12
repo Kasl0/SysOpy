@@ -1,0 +1,41 @@
+Lib execution time: 14213267 ns
+Sys execution time: 154867 ns
+
+Lib execution time: 297796 ns
+Sys execution time: 113421 ns
+
+Lib execution time: 15179032 ns
+Sys execution time: 149646 ns
+
+Lib execution time: 15744725 ns
+Sys execution time: 150590 ns
+
+Lib execution time: 244895 ns
+Sys execution time: 65262 ns
+
+Lib execution time: 14634374 ns
+Sys execution time: 112771 ns
+
+Lib execution time: 328215 ns
+Sys execution time: 106421 ns
+
+Lib execution time: 316713 ns
+Sys execution time: 110335 ns
+
+Lib execution time: 224809 ns
+Sys execution time: 66040 ns
+
+Lib execution time: 18249510 ns
+Sys execution time: 155073 ns
+
+Lib execution time: 335712 ns
+Sys execution time: 107606 ns
+
+Lib execution time: 221319 ns
+Sys execution time: 65516 ns
+
+Lib execution time: 284744 ns
+Sys execution time: 109342 ns
+
+slonkacp@borg:~/Pulpit/SloniecKacper/cw02/Zad1$ ./main a f input.txt output.txt ; tr a f < input.txt > tmp ; diff -s tmp output.txt
+Pliki tmp i output.txt są identyczne

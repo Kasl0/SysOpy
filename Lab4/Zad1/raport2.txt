@@ -1,0 +1,2 @@
+- Po wykonaniu fork() dziedziczone jest ignorowanie, handler oraz maska. Sygnał czekający w przodku nie jest widoczny w potomku.
+- Po wykonaniu exec() nadal ustawione jest ignorowanie oraz maska. Sygnał czekający nie jest widoczny po wykonaniu funkcji exec().

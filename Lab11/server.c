@@ -106,7 +106,11 @@ int main(int argc, char* argv[]) {
 
             sprintf(msg, "size:%ld:", file_size);
             write(client_socket, msg, strlen(msg));
-            write(client_socket, content, file_size);
+
+            int sended = 0;
+            while(sended < file_size) sended += write(client_socket, content + sended, file_size - sended);
+            free(content);
+            printf("File sent\n");
         }
         else printf("Unknown command: %s", word);
 

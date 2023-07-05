@@ -5,6 +5,8 @@
 #include <unistd.h>
 #include <string.h>
 
+#define MSG_MAX_LEN 200
+
 int s;
 
 int main(int argc, char* argv[]) {
@@ -34,7 +36,7 @@ int main(int argc, char* argv[]) {
         return 0;
     }
 
-    char buf[200];
+    char buf[MSG_MAX_LEN];
     printf("Podaj tekst: ");
     fgets(buf, sizeof(buf), stdin);
 
@@ -72,7 +74,7 @@ int main(int argc, char* argv[]) {
                 file_size -= status;
             }
             
-            printf("Zapisano plik\n");
+            printf("Received file\n");
             fclose(file);
         }
         else printf("Unknown content: %s\n", word);
